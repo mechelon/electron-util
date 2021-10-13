@@ -1,14 +1,13 @@
 {
 	"name": "electron-util",
-	"version": "0.17.2",
-	"description": "Useful utilities for Electron apps and modules",
+	"version": "1.0.0",
+	"description": "Useful utilities for Electron apps and modules; compatible with Electron 14.",
 	"license": "MIT",
-	"repository": "sindresorhus/electron-util",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "beyondcode/electron-util",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Diana Scharf",
+		"email": "diana@beyondco.de",
+	  	"url": "https://beyondco.de"
 	},
 	"scripts": {
 		"start": "electron example.js",
@@ -32,7 +31,7 @@
 		"useful"
 	],
 	"dependencies": {
-		"electron-is-dev": "^1.1.0",
+		"electron-is-dev": "^2.0.0",
 		"new-github-issue-url": "^0.2.1"
 	},
 	"devDependencies": {

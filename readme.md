@@ -1,8 +1,17 @@
 # electron-util
+Fork of [sindresorhus/electron-util](https://github.com/sindresorhus/electron-util)
+
+**IMPORTANT**
+In this fork, the electron-is-dev dependency was updated to version 2.0.0 since using the remote module is no longer possible as of Electron 14 (deprecated and removed).
+You should use @electron/remote instead.
+Since the new remote module *is not available during renderer, this package isn't as well*. The is.development option has been dropped.
+
+
+---
 
 > Useful utilities for Electron apps and modules
 
-You can use this module directly in both the [main and renderer process](https://electronjs.org/docs/tutorial/quick-start/#main-process).
+~You can use this module directly in both the [main and renderer process](https://electronjs.org/docs/tutorial/quick-start/#main-process).
 
 ## Install
 
@@ -75,7 +84,6 @@ Check for various things:
 - `windows` - Running on Windows
 - `main` - Running on the [main process](https://electronjs.org/docs/tutorial/quick-start/#main-process)
 - `renderer` - Running on the [renderer process](https://electronjs.org/docs/tutorial/quick-start/#renderer-process)
-- `development` - Running in development, not in production
 - `usingAsar` - The app is using [ASAR](https://electronjs.org/docs/tutorial/application-packaging/)
 - `macAppStore` - The app is an Mac App Store build
 - `windowsStore` - The app is a Windows Store AppX build
