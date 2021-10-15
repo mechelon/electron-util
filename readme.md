@@ -8,10 +8,14 @@ Since the new remote module *is not available during renderer, this package isn'
 
 
 ---
+Original docs:
+
+
+# electron-util
 
 > Useful utilities for Electron apps and modules
 
-~You can use this module directly in both the [main and renderer process](https://electronjs.org/docs/tutorial/quick-start/#main-process).
+You can use this module directly in both the [main and renderer process](https://electronjs.org/docs/tutorial/quick-start/#main-process).
 
 ## Install
 
